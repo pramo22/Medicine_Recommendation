@@ -6,10 +6,7 @@ from flask_bcrypt import Bcrypt
 import os  # Import os to handle file operations
 import pandas as pd  # Import pandas to handle DataFrames
 from models.collaborative_based import recommend_svd,hybrid_model_recommendation
-<<<<<<< HEAD
 import random
-=======
->>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
 
 app = Flask(__name__, static_folder='static')
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.db"
@@ -55,7 +52,6 @@ def register():
         return redirect(url_for('login'))
     return render_template('register.html')
 
-<<<<<<< HEAD
 @app.route('/reset_request', methods=['GET', 'POST'])
 def reset_request():
     if request.method == "POST":
@@ -105,8 +101,6 @@ def reset_password():
             flash("Password do not match. Please try again","danger")
 
     return render_template('reset_password.html')
-=======
->>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
 
 @app.route('/login',methods=['GET', 'POST'])
 def login():
