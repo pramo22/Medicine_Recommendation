@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="{{ url_for('static', filename='main.js') }}"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    
+    <body class="bg-gray-100 min-h-screen flex items-center justify-center text-gray-800">
+        <div class="w-full max-w-md p-8 bg-white rounded-lg shadow-lg">
+            <h1 class="text-2xl font-bold text-center mb-6">Login</h1>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="mb-4 px-4 py-2 rounded border text-sm 
+                                    {% if category == 'success' %}
+                                        bg-green-100 text-green-800 border-green-300
+                                    {% elif category == 'error' %}
+                                        bg-red-100 text-red-800 border-red-300
+                                    {% else %}
+                                        bg-gray-100 text-gray-800 border-gray-300
+                                    {% endif %}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <form method="POST" action="{{ url_for('login') }}">
+                <div class="mb-4">
+                    <input class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" type="text" id="user_id" name="user_id" placeholder="UserID" required>
+                </div>
+                
+                <div class="mb-4">
+                    <input class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" type="password" name="password" placeholder="Password">
+                </div>
+                
+                <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded" onclick="togglePassword()" id="toggleIcon" type="submit">Login</button>
+                
+                <p class="text-center text-sm text-gray-600 mt-4">
+                    Don't have account?
+                    <a href="{{url_for('register')}}" class="text-blue-600 hover:underline">Register</a>
+                </p>
+                
+                <p class="text-center text-sm text-gray-600 mt-4">
+                    Forgot password? Please,
+                    <a href="{{url_for('reset_request')}}" class="text-blue-600 hover:underline">Reset password</a>
+                </p>  
+            </form>
+        </div>
+    </body>
+</html>
