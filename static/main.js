@@ -33,7 +33,6 @@ function togglePassword() {
     const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
     passwordInput.setAttribute("type", type);
     toggleIcon.textContent = type === "password" ? "👁️" : "🙈";
-<<<<<<< HEAD
 }
 
 function validatePassword() {
@@ -84,6 +83,4 @@ function validateNewPassword(event) {
         return false;
     }
     return true;
-=======
->>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
 }
