@@ -1,12 +1,15 @@
 patient_id,drugName,condition,review,rating,content_score,predicted_sentiment
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 12032,Bonine,motion sickness,"""i wanted to take a helicopter ride while on a trip to kauai. i have a horrible history of motion sickness. someone suggested bonine so i tried that. i not only made it through the entire 90 minute ride, but i actually enjoyed it and didn't once have the horrible motion sick feeling. """,10.0,0.56219995,Positive
 12032,Transderm-Scop,motion sickness,"""the reason i'm giving it a 9 instead of 10 is because of it's side effects. otherwise, this patch works really well for an overnight or two day fishing trip (at least in my experience). i thought i'm getting cold and feeling sick after i get off the fishing boat because my throat was getting dry and dryer and dryer. at that time i'm not aware that one of it's side effects was dry mouth/throat. aside from that, i didn't feel anything anymore after couple of days. i'll use it again for my next fishing trip. i'll opt for a dry throat verses getting sick on the boat.""",9.0,0.5279974,Positive
 12032,Phenergan,motion sickness,"""i has on a plane for 26 hours with 5 stops and not much down time on the ground.  for the first time i was able to eat and sleep for longer then 10 minutes.  not the best medicine for someone that needs to be alert and fully functioning.  once on the ground for good i needed to be alert and doing my job.  it took around 20 min and some water.""",9.0,0.5247688,Positive
 12032,Marezine,motion sickness,"""it was ten minutes before my 30 minute puddle jumper flight. a friend knew of my sickness and handed me box of marzine and said take one so i did. what difference, no side effects no sickness. was not sleepy or tired. felt great after flight.""",10.0,0.519135,Positive
 12032,Bonine,motion sickness,"""both my son and i took this on a diving trip and it worked great.  no side effects.  i have high blood pressure and had no effects that i could tell.  we took 1 the night before and 1 an hour before the boat left the dock.""",10.0,0.50773716,Positive
 =======
+=======
+>>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
 =======
 >>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
 12031,Skyla,birth control,"""the only reason why i wouldn't give this birth control a 10 is because it started to give me recurring and unbearable bv that i could not stand to deal with. everything else was perfect! might have had my period a few extra days but my flow was lighter-normal, no acne, no mood swing, no bloat. i did get slightly stronger cramps but that was fine.""",8.0,0.7243779,Positive
@@ -25,6 +28,9 @@ patient_id,drugName,condition,review,rating,content_score,predicted_sentiment
 12031,Medroxyprogesterone,birth control,0.6701316,"""i just got this shot 1 week ago and i don't even notice a difference. i can't tell i even got it. i have actually been in a better mood since  receiving it. not everyone i know has had the same experience. so all i can say is it's worth a shot. no pun intended :)""",Positive
 12031,Dienogest / estradiol,birth control,0.66751134,"""this pill didn't give me any of the listed side effects, and my periods were only about 2-3 days (which is very short for me, loved that). if that was all, i would give it a 10, however, it completely killed my ability to get aroused (wet), my libido was there and i was very into the intimate moments, but i was very dry ....unlike me.  it also made my skin and scalp very dry too, it's like it sucked all the moisture out of my body.  i switched to a different pill and the dryness problems went away in about a week.  definitely not the right birth control pill for me.""",Positive
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
+=======
 >>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
 =======
 >>>>>>> c3b9562fa8eaf72805e0954486ad23eee93fe450
