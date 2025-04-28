@@ -19,4 +19,7 @@ patient_id,drugName,condition,review,rating,content_score,predicted_sentiment
 12031,Ethinyl estradiol / norgestimate,birth control,0.67098767,"""i am 23 and i have been on birth control for 7 years. i switched from ortho tri-cyclen to sprintec 3 years ago and it works amazingly. i have controlled periods and my mood stabilizes greatly with this birth-control.""",Positive
 12031,Medroxyprogesterone,birth control,0.6701316,"""i just got this shot 1 week ago and i don't even notice a difference. i can't tell i even got it. i have actually been in a better mood since  receiving it. not everyone i know has had the same experience. so all i can say is it's worth a shot. no pun intended :)""",Positive
 12031,Dienogest / estradiol,birth control,0.66751134,"""this pill didn't give me any of the listed side effects, and my periods were only about 2-3 days (which is very short for me, loved that). if that was all, i would give it a 10, however, it completely killed my ability to get aroused (wet), my libido was there and i was very into the intimate moments, but i was very dry ....unlike me.  it also made my skin and scalp very dry too, it's like it sucked all the moisture out of my body.  i switched to a different pill and the dryness problems went away in about a week.  definitely not the right birth control pill for me.""",Positive
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3db7d23b71bbed026200292ee753c0c9209e40d2
