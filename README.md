@@ -61,3 +61,13 @@ project/ │ ├── templates/ │ ├── login.html │ ├── registe
 ![content_scores.csv](https://github.com/pramo22/Medicine_Recommendation/blob/main/data/content_scores.csv)
 <br>
 ![collaborative_scores.csv](https://github.com/pramo22/Medicine_Recommendation/blob/main/data/collaborative_scores.csv)
+
+# Contributors ✨
+  Thanks to these amazing contributors:
+   - [swathi-agarwal](https://github.com/swathi-agarwal) - Machine Learning Developer to work on the backend part of the project
+   - [Deepakmity02](https://github.com/Deepakmity02) - Machine Learning Developer to work on the backend part of the project
+   - [HaniCode254](https://github.com/HaniCode254) - Frontend Developer to work on the frontend part of the project
+
+# License
+
+  This project is licensed under the MIT License. See the LICENSE file for details
