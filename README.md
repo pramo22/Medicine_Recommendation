@@ -25,3 +25,30 @@ This is a web-based drug recommendation system built with **Flask**. It supports
 ## 📦 Project Structure
 
 project/ │ ├── templates/ │ ├── login.html │ ├── register.html │ └── recommendation_form.html │ ├── static/ │ └── (Bootstrap CDN used for styling) │ ├── app.py └── README.md
+
+
+## Installed Packages
+  - Install Flask
+    ```bash
+       pip install flask
+    
+  - Install scikit-learn
+    ``` bash
+     pip install sklearn
+    
+  - Install Pandas
+    ``` bash
+     pip install pandas
+    
+  - Install Numpy
+     ``` bash
+     pip install numpy
+
+  - Install Surprise
+     ``` bash
+     pip install scikit-surprise
+
+## To run this project
+   - 
+      ``` bash
+      py app.py
