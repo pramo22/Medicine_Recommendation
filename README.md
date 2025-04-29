@@ -1,1 +1,27 @@
-# Medicine_Recommendation
+# 💊 Medicine_Recommendation
+
+This is a web-based drug recommendation system built with **Flask**. It supports user registration and login, and allows users to get drug recommendations based on their health condition using different algorithms:
+- Content-Based Filtering
+- Collaborative Filtering
+- Hybrid Filtering
+
+ ## Features
+
+- 🧑‍💻 User Registration & Login (Flask-Login)
+- 🔐 Authentication with user ID, password, email, and security key
+- 📄 Drug recommendation form with dynamic input options
+- 🤖 Support for multiple recommendation strategies
+- 📊 Displays predicted sentiment, scores, and drug info
+
+  ## Tech Stack
+
+- **Backend**: Python, Flask, Flask-Login
+- **Frontend**: HTML, Jinja2, Bootstrap 5, tailwind CSS
+- **Recommendation Logic**: Python-based (Distil-Roberta /ML models assumed)
+- **Storage**: In-memory (can be extended to SQLite)
+
+---
+
+## 📦 Project Structure
+
+project/ │ ├── templates/ │ ├── login.html │ ├── register.html │ └── recommendation_form.html │ ├── static/ │ └── (Bootstrap CDN used for styling) │ ├── app.py └── README.md
