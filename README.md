@@ -52,3 +52,12 @@ project/ │ ├── templates/ │ ├── login.html │ ├── registe
    - 
       ``` bash
       py app.py
+
+## Dataset Used
+![drug_review_test.csv](https://github.com/pramo22/Medicine_Recommendation/blob/main/data/drug_review_test.csv)
+<br>
+![drug_review_with_sentiment.csv](https://github.com/pramo22/Medicine_Recommendation/blob/main/data/drug_reviews_with_sentiment.csv)
+<br>
+![content_scores.csv](https://github.com/pramo22/Medicine_Recommendation/blob/main/data/content_scores.csv)
+<br>
+![collaborative_scores.csv](https://github.com/pramo22/Medicine_Recommendation/blob/main/data/collaborative_scores.csv)
